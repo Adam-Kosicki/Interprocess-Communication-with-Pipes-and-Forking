@@ -1,0 +1,3 @@
+# Interprocess-Communication-with-Pipes-and-Forking
+
+The project demonstrates interprocess communication and redirection using pipes in the C programming language. It involves creating two pipes and forking a parent and child process. The parent process redirects its standard input and output to one of the pipes, while the child process redirects its standard input and output to the other pipe. This setup enables communication between a user and a computer simulation. The user process sends input to the computer process, and the computer process responds with output, which is then displayed to the user. The project showcases how pipes can be used to establish communication channels between processes and how they can be used for stdin and stdout redirection.
