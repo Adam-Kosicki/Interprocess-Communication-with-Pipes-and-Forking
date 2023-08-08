@@ -1,6 +1,6 @@
 # Interprocess-Communication-with-Pipes-and-Forking
 
-TThis project involves creating a communication-based number-guessing game between a user and a computer simulation using C programming. The project is divided into two main components: the communication setup and the number-guessing game itself.
+This project involves creating a communication-based number-guessing game between a user and a computer simulation using C programming. The project is divided into two main components: the communication setup and the number-guessing game itself.
 
 Communication Setup:
 The first program sets up a communication mechanism between two processes, namely the user process and the computer simulation process. It uses pipes to establish this communication. The program creates two sets of pipes, one for communication from the user to the computer and another for communication from the computer to the user. A fork is used to create the two processes, with one becoming the parent process responsible for the user interaction and the other becoming the child process responsible for the computer simulation.
